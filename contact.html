@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>CONTACT</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__wrapper-logo">
+                    ERAAKAA
+                </div>
+                <nav class="header__wrapper-nav">
+                    <input type="checkbox" id="burger-toggle" class="burger-checkbox">
+                    <label for="burger-toggle" class="burger-menu">
+                        <img src="img/burger-bar.png" alt="Бургер-меню">
+                    </label>
+                    <ul class="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="family.html">FAMILY</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="hobbies.html">HOBBIES</a></li>
+                        <li><a href="contact.html"><span class="span__nav">CONTACT</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="contact">
+        <div class="wrapper">
+            <div class="contact__wrapper">
+                CONTACT ME
+                <div class="contact__wrapper-contact">
+                    <div class="contact__wrapper-massage">
+                        <form onreset="this.reset()">
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Your Name:" required><br><br>
+                        
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" placeholder="Your Email:" required><br><br>
+                        
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" rows="4" cols="40" placeholder="Your Massage:" required></textarea><br><br>
+                        
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Clear">
+                          </form>                      
+                    </div>
+                    <div class="contact__wrapper-icons">
+                        <div class="contact__wrapper-icons-img">
+                            <a href=""><img src="img/inst.svg" alt=""></a>
+                            <a href=""><img src="img/telegram.png" alt=""></a>
+                            <img src="img/email.svg" alt="">
+                        </div>
+                        <div class="contact__wrapper-icons-text">
+                            <p>@eraaakaa</p>
+                            <p>@eraakaa</p>
+                            <p>ernurmugal20@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__wrapper-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d79987.11287874985!2d51.382404!3d51.20807200000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4171ba3876f94b7d%3A0x6771f0f3596acc1b!2z0KPRgNCw0LvRjNGB0Lo!5e0!3m2!1sru!2skz!4v1728807771688!5m2!1sru!2skz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper-end">
+                    2024. Mugalbaev Yernur.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
